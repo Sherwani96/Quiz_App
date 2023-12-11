@@ -1,0 +1,26 @@
+{
+  "name": "quizapp-ahm",
+  "version": "1.0.0",
+  "description": "The app will show the students multiple choice questions and promt the user to reply. In the end it will show the result of quiz.",
+  "type": "module",
+  "bin": {
+    "quizapp-ahm": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ahmed Sherwani",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.12"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7"
+  }
+}
